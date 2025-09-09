@@ -20,7 +20,7 @@ body {
     min-width: 300px;
     display: grid;
     grid-template-columns: auto 1fr;
-    max-width: 600px;
+    max-width: 767px;
     
     /* свечение */
     position: relative;
@@ -94,7 +94,7 @@ body {
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 767px){
     .card {
         padding: 10px  ;
         border-radius: 50px;
